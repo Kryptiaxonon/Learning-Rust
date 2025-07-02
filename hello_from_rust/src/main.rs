@@ -1,8 +1,10 @@
 fn main() {
     println!("Hello, world!");
+    println!("Hello cargo!");
     println!("Hello, git!");
     println!("Hello, rest of the world!");
     greetings();
+    do_you_like_it();
 }
 
 fn greetings() {

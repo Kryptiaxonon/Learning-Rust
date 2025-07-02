@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "hello_rust_git_and_the_rest_of_the_world"
+name = "hello_from_rust"
 version = "0.1.0"
