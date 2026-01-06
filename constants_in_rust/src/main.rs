@@ -1,12 +1,12 @@
-// Welcome to rust for us(dummie) part - i dont know
+// Welcome to rust for us(dummies) part - i dont know
 // topic : constants in rust
 
 // constants in rust can be created through 'const' keyword e.g.
 // const MY_CONST : u32 = 6790;
 //
 // As you can see there is plenty of things happening here :-
-// first , constant name is in capital letter snake case , its the naming convention of rust .
-// second , i have u32 , it means it is unsigned integer , we will cover these topics sometime
+// first , constant name is in capital letter snake case , it's the naming convention of rust .
+// second , I have u32 , it means it is unsigned integer , we will cover these topics sometime
 // later .
 //
 //
@@ -18,9 +18,9 @@
 //
 // Creation of const
 // to create a const , we need to use const keyword , gave a capital letter name , typer infer
-// (it just mean adding a type to it like u8,i32,bool,etc) and a value which should be assign at
-// compile time and not at run time , meaaning value of them can not be dynamic
-// e.g
+// (it just mean adding a type to it like u8,i32,bool,etc.) and a value which should be assigned at
+// compile time and not at run time , meaning value of them can not be dynamic
+// e.g.
 // let apples:u32 = 5;
 // const ABSOLUTELY_MY_APPLES_AND_YOU_DONT_HAVE_RIGHTS_TO_EAT_THEM:u32 = 12 + apples;
 //
