@@ -1,4 +1,4 @@
-// Welcome to rust for us(dummies) part - i dont know
+// Welcome to rust for us(dummies) part - i dont know probably 3
 // topic : constants in rust
 
 // constants in rust can be created through 'const' keyword e.g.
@@ -13,7 +13,7 @@
 // so you might be asking why we need a const because we already have variable which is immutable
 // by default and work as constants
 //
-// the main reason for that is that , variable can be muted but const can never be muted
+// the main reason for that is that , variable can be mutated but const can never be mutated
 // variable , by default is immutable but a constant is always immutable
 //
 // Creation of const

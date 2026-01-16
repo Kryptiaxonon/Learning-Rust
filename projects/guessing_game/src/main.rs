@@ -73,15 +73,21 @@ fn main() {
 
         // Now just compare it with secret number
         // comparing has its arm of Ordering which compare two number using Ordering
+
+        // Important fact about match: it's exhaustive, meaning you have to cover every outcome.
+        // Rust compiler forces to do that.
+
+        // Ordering::Less => Expression. -> This right here is known as an arm.
+        // Match expects and forces you to add all arms.
         match guess.cmp(&secret_number) {
             Ordering::Less => {
                 println!("Too small!");
                 continue;
-            }
+            },
             Ordering::Greater => {
                 println!("Too big!");
                 continue;
-            }
+            },
             Ordering::Equal => {
                 println!("You won!");
                 break;
